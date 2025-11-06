@@ -1,0 +1,65 @@
+
+web app
+a software program that is accessed through a web browser over the internet, running on a remote server instead of being installed on a user's device
+	-runs on application server
+
+
+common way to display info - markup lang html
+
+business logic - the math and algortihms?
+
+
+
+Project
+
+-keep track of how and what u installed, dependencies
+
+-dont do req 12: pay
+
+-no images needed
+
+-can clone git online repo from walkthrough in VSC
+
+-routing optional, how difficult is it?
+
+
+
+
+
+LABB 1
+
+git remote add origin
+	-links the local folder with an empty git repo online	
+
+checkout
+	-"checks out" TO "other branch"
+
+origin
+	-current branch you are working on/checked out to
+
+is backend only for websites?
+
+
+
+the stockeier one showed https://cursor.com/
+	-and codex, see vsc extensions
+		-openAI's official one
+		-slower but more correct
+	-learn only 1
+
+react 19 and node 22
+
+npm comes from node?
+	-just read ur own old note...
+
+npm install
+	-in start menu under node.js there is script that can be run if needed for certain node features
+
+npm create vite@latest my-app -- --template react
+
+
+
+	
+
+
+
