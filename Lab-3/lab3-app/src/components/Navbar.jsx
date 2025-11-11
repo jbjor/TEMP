@@ -4,7 +4,8 @@ function Navbar() {
     return (
         <nav>
             <Link to="/">Home</Link>
-            <Link to="/functional">Functional</Link>
+            {" |"}
+            <Link to="/functional">Functional Component</Link>
         </nav>
     );
 }

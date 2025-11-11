@@ -11,8 +11,14 @@ function App() {
 
   return (
     <>
-      SimpleClassComponent
-    </>
+    <BrowserRouter>
+      <Navbar />
+      Counter
+      <Routes>
+        <Route path="/" element={<SimpleClassComponent />} />
+        <Route path="/functional" element={<SimpleFunctionalComponent student={Student} teacher={Teacher}  />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
