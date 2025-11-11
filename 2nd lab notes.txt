@@ -1,0 +1,42 @@
+npm create vite@latest lab1-app -- --template react
+
+if vsc uses powershell, it needs admin rights
+
+
+Javascript
+
+set of key and value pairs 
+	-did he say objects are this
+
+arrays can store mixed values, therefore also functions: like the ?object ?methods
+
+var has larger scope than let and const?
+
+skriv själv all kod om JS för ti öva å ha referens efter kurs
+	-what happens if combining just without spread operator?
+		-nested arrays
+
+
+use VSC terminal, not cmd
+
+figure out SimpleFunctionalComponents is not defined, so it works like SimpleClassComponents
+
+make origin? the cloud up to date
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+URI is just a "useless" id, URL is the address; kinda like a subclass of URI
+
+sockets are a tuple of IP address, TCP and port 80 in practice
+
+Name in DNS is WHAT you seek, aka the name
+    -at least DNS servers pair up names and URL's
+URL is WHERE u seek, aka the address
+
+HTTP is stateless
+    -need ?cookies to get states, is react cokies?
+
+for exam
+    -learn difference between get post and put requests
+
+
+CLIENT SIDE PROG
+
+HTML - WHAT to show
+CSS  - HOW to show it
+JS   - EXECUTION
+
+JS
+-allows to execute scripts from ?at the client side
+
+
+React JS
+
+->so its a JS library
+-does not use templates -> components
+
+-virtual DOM
+
+components
+    -think as classes, where ?functions are properties
+    -has states
+    -defined here as functions though
+
+-render = update? = refresh

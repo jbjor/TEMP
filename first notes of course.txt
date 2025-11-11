@@ -55,9 +55,15 @@ npm comes from node?
 npm install
 	-in start menu under node.js there is script that can be run if needed for certain node features
 
-npm create vite@latest my-app -- --template react
+npm create vite@latest my-app -- --template react		or
+npm create vite@latest lab1-app -- --template react
 
+g human interraction 101
 
+Vite : https://react.dev/learn/build-a-react-app-from-scratch
+Command : npm create vite@latest my-react-app -- --template react (Replace 'my-react-app' with your app name)
+Install dependencies: npm install
+Run the app: npm run dev
 
 	
 

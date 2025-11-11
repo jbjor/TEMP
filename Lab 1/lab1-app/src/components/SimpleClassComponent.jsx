@@ -1,0 +1,21 @@
+import React, { Component } from 'react';
+
+class SimpleClassComponent extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {};
+        
+
+    }
+
+    render(){
+        return (
+            <div>
+                <h1>Vite + React 2</h1>
+            </div>
+        );
+    }
+}
+
+export default SimpleClassComponent;
