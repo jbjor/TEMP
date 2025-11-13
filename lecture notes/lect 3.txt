@@ -12,13 +12,14 @@ self describing web services has good documentation
 
 Web service architectural styles
 
-RPC
+RPC - ?
 	-protocols - so functions to be called and parameters
 
 Simple Object Application Progr?
 	-can have own name spaces such as vars and ?strings?
 
 REpresentational State Transfer - REST(ful?)
+	-WE ARE USING REST style
 	- not rest api
 	-a style, so exposes ?info?
 	-can also be used for web ?
@@ -33,6 +34,27 @@ REpresentational State Transfer - REST(ful?)
 		-reverse proxy
 			-between iternet and server
 		-so local cache - proxy cache - reverse proxy cache
+	-drawbacks
+		-stateless
+		-each individual res needs its own separate request
+
+Graph Query Language
+	-can query several res in 1 request
+
+read graphql vs rest from link
+
+
+
+DJANGO
+
+views are functions w/ input output
+
+models are databases
+
+like MVC but view cant change database?
+
+
+
 
 
 
