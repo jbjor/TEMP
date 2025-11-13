@@ -1,0 +1,39 @@
+-to other lect
+	-be able to explain parts of a URI/L
+
+webb app / used by humans
+	-clint decodes snd displays the app
+	-has a layout via GUI from html
+
+self describing web services has good documentation
+	-in what form though?
+
+
+
+Web service architectural styles
+
+RPC
+	-protocols - so functions to be called and parameters
+
+Simple Object Application Progr?
+	-can have own name spaces such as vars and ?strings?
+
+REpresentational State Transfer - REST(ful?)
+	- not rest api
+	-a style, so exposes ?info?
+	-can also be used for web ?
+	-adressability?
+		- not "getabookmark" in URI like in RPC, rather "bookmark"
+	-
+	-processing of res
+		-
+	-cahceability
+		-forward proxy - proxy
+			-between client and internet?
+		-reverse proxy
+			-between iternet and server
+		-so local cache - proxy cache - reverse proxy cache
+
+
+
+
