@@ -13,7 +13,10 @@ function SimpleFunctionalComponent(props) {
             </p>
             <h2>Student info</h2>
             <p>ID: {props.student.id}</p>
-            <p>Teacher ID: {props.student.id2}</p>
+            <p>Name: {props.student.name}</p>
+            <h2>Teacher info</h2>
+            <p>Teacher ID: {props.teacher.id2}</p>
+            <p>Teacher Name: {props.teacher.name2}</p>
         </div>
     );
 }

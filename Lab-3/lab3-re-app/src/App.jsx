@@ -4,16 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import SimpleClassComponent from './components/SimpleClassComponent'
 import SimpleFunctionalComponent from './components/SimpleFunctionalComponent'
+import { Student, Teacher } from './components/helper'
 
-const Student = {
-  name: "John Doe",
-  id: 1,
-};
-
-const Teacher = {
-  id: 101,
-  name: "Jane Smith",
-};
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +13,7 @@ function App() {
   return (
     <>
      <SimpleClassComponent/>
-     <SimpleFunctionalComponent student={{ ...Student, ...Teacher}}/>
+     <SimpleFunctionalComponent student={Student} teacher={Teacher} />
 
     </>
   )
