@@ -4,7 +4,7 @@ import React from 'react';
 // pretty much same as SimpleClassComponent but without the class syntax
 // -> so a lot less code?
 
-function SimpleFunctionalComponent() {
+function SimpleFunctionalComponent(props) {
     return (
         <div>
             <h1>Vite + React</h1>
