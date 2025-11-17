@@ -2,21 +2,26 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import SimpleClassComponents from './components/SimpleClassComponent'
-import SimpleFunctionalComponents from './components/SimpleFunctionalComponent'
+import SimpleClassComponent from './components/SimpleClassComponent'
+import SimpleFunctionalComponent from './components/SimpleFunctionalComponent'
 
 const Student = {
   name: "John Doe",
-  id: "123456",
-  program: "Computer Science"
+  id: 1,
 };
+
+const Teacher = {
+  id: 101,
+  name: "Jane Smith",
+};
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <SimpleFunctionalComponents />
-    <SimpleClassComponents />
+     <SimpleClassComponent/>
+     <SimpleFunctionalComponent student={{ ...Student, ...Teacher}}/>
 
     </>
   )

@@ -1,5 +1,9 @@
 npm create vite@latest lab1-app -- --template react
 
+npm run dev
+	- to run ur client side
+	-in folder that has src!
+
 if vsc uses powershell, it needs admin rights
 
 
@@ -22,6 +26,12 @@ use VSC terminal, not cmd
 figure out SimpleFunctionalComponents is not defined, so it works like SimpleClassComponents
 
 make origin? the cloud up to date
+
+
+for react shortcuts and e.g. boilerplate - npm rn dev?
+	-extension: ES7 + React/Redux/react-Native snippets
+
+props are nothing but parameters to a function
 
 
 

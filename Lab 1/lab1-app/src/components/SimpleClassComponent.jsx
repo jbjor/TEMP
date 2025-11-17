@@ -12,7 +12,10 @@ class SimpleClassComponent extends Component {
     render(){
         return (
             <div>
-                <h1>Vite + React 2</h1>
+                <h1>Vite + React </h1>
+                <p>class component in React using Vite.
+                    So a bit more code than a functional component.
+                </p>
             </div>
         );
     }
