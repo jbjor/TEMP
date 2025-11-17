@@ -1,4 +1,4 @@
-npm create vite@latest lab1-app -- --template react
+npm create vite@latest lab3-re-app -- --template react
 
 npm run dev
 	- to run ur client side
