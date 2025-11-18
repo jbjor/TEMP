@@ -17,3 +17,5 @@ everthing renders twice due to stric mode in main.jsx
 UseEffect =>
     -only runs once if [] at end is empty!
     -at lest only for when count changes, not count step (2) in UseEffect code
+
+setCount triggers UI re-render!
