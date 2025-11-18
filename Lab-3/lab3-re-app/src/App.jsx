@@ -10,6 +10,7 @@ import Navbar from './components/Navbar'
 import CounterWithoutHook from './components/hooks/CounterWithoutHook'
 import CounterWithUseState from './components/hooks/CounterWithUseState'
 import CounterWithUseEffect from './components/hooks/CounterWithUseEffect'
+import CounterWithUseRef from './components/hooks/CounterWithUseRef'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
      <CounterWithoutHook/>
      <CounterWithUseState/>
      <CounterWithUseEffect/>
+     <CounterWithUseRef/>
 
      <Routes>
       <Route path='/' element={<SimpleClassComponent/>}/>

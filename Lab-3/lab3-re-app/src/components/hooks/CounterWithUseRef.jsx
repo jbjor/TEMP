@@ -1,8 +1,12 @@
 import React, {useState, useRef} from 'react';
+// no values are one step behind
+// useRef does not re-render the component when its value changes
+//     it will just keep the values
 
 function CounterWithUseRef() {
     const [count, setCount] = React.useState(0);
-    const [countStep2, setCountStep2] = React.useState(0);
+    //const [countStep2, setCountStep2] = React.useState(0);
+    const buttonClickRef = useRef(0);  // to keep track of button clicks
 
     const increment = () => {
         setCount(count + 1);
