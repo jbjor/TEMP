@@ -6,3 +6,6 @@ npm i react-router-dom
 
 use minimal required file extension
     -e.g. like in helper.js, no jsx code so js is sufficient
+
+hooks  - basically stateful components for react
+-help re-render and change UI based on parameters and ?links
