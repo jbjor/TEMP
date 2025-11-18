@@ -7,10 +7,8 @@ import SimpleFunctionalComponent from './components/SimpleFunctionalComponent'
 import { Student, Teacher } from './components/helper'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Navbar from './components/Navbar'
-import CounterWithoutHook from './components/hooks/CounterWithoutHook'
-import CounterWithUseState from './components/hooks/CounterWithUseState'
-import CounterWithUseEffect from './components/hooks/CounterWithUseEffect'
-import CounterWithUseRef from './components/hooks/CounterWithUseRef'
+import HooksContainer from './components/HooksContainer.jsx';
+
 
 
 function App() {
@@ -20,10 +18,7 @@ function App() {
     <>
     <BrowserRouter>
      <Navbar/>
-     <CounterWithoutHook/>
-     <CounterWithUseState/>
-     <CounterWithUseEffect/>
-     <CounterWithUseRef/>
+     <HooksContainer/>
 
      <Routes>
       <Route path='/' element={<SimpleClassComponent/>}/>
