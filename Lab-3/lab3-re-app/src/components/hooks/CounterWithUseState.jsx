@@ -20,7 +20,7 @@ function CounterWithUseState() {
 
     return (
         <div>
-            <h2>Counter Counter With UseState </h2>  
+            <h2>Counter With UseState </h2>  
             <p>Count: {count}</p>
             <button onClick={increment}>Increment</button>
             <button onClick={decrement}>Decrement</button>

@@ -15,6 +15,8 @@ set of key and value pairs
 arrays can store mixed values, therefore also functions: like the ?object ?methods
 
 var has larger scope than let and const?
+	-so use let instead of var if possible
+	-const is "unchangeable"
 
 skriv själv all kod om JS för ti öva å ha referens efter kurs
 	-what happens if combining just without spread operator?

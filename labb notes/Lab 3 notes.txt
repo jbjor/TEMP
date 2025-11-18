@@ -9,3 +9,11 @@ use minimal required file extension
 
 hooks  - basically stateful components for react
 -help re-render and change UI based on parameters and ?links
+
+at min 53 why cant rely for latest value, rather gives state? value
+
+everthing renders twice due to stric mode in main.jsx
+
+UseEffect =>
+    -only runs once if [] at end is empty!
+    -at lest only for when count changes, not count step (2) in UseEffect code
