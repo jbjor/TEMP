@@ -1,0 +1,6 @@
+Can I clone a repo to another git repository?
+	-idk, just clone it to a new folder
+	-then run npm install and npm run dev in appropriate (react) folder
+
+django admin superuser
+smedsby - molpe

@@ -1,0 +1,62 @@
+
+need to store and access userdata from previous and at current session
+	-e.g. shopping basket in web shop
+
+
+store on client or server
+	-client can only access in same device?
+
+Options:
+
+1. Is in-memory storage on client or server side?
+	-guess client only, ai says both
+	-so in practice e.g. an array in a running program!
+	chrome>ctrl + shift + 1 > application storages
+
+2. File system
+
+
+3 Databases!
+
+relational - nonrelational
+
+models provide an abstraction to the db
+	->Object Relational Mappers ORM
+		- allow to oprate on db using high-level prog languages
+-> in django
+	-basicly can just declare object instances that creat a db entry!
+	-so getters and setters
+	-deletions
+
+models need to be added to the installed_apps array! see lab 4 notes!
+makemigrations command when got new sql commands, whatever new means...
+
+SOP - Same Origin Policy
+
+
+cookies
+	-so defined as client side file system (db) user data?
+	-session managments, so for tracking user choices from before
+	-managed automatically by browser
+	-will automatically? be used in our project
+		-for authentication?
+
+3 types but 1 type of cookies
+	-session cookies hav no expires, as they are temporary
+	-persistent permanent unless expired or deleted
+		-APPDATA IS A LOCAL SQLITE3 DB FOR COOKIES!!!
+			folder named local is chrome, roaming is firefox
+	-third-party
+
+
+web storage 
+	is an alternative for cookies
+	easier to process than many cokies
+
+
+3. ? Client side databaseses
+	-cookies not this?
+	-rare obsolite websql
+	-indexedDB - intended for offline apps - so probably rare as well
+
+4. Local (client) cache
