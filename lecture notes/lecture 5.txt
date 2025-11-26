@@ -1,0 +1,65 @@
+
+concurrency - 2 or more things happening at the same time
+
+view is managed by a set of templates in django
+	-separating style from content 
+		-like w html and css?
+	-a template is like a pre filled form...?
+		-well the inputs that are "required" are stated
+
+
+in djangoe requests are objects, that often has a dictionary
+	-what is a dictionary?
+
+
+landing page telss how much stuff in the db
+	-this is s template
+
+Storing stat in cookies
+
+
+
+Storing state on server side
+	-more control to server, safe f
+	-a board session table in a db
+	-diff to pure cookies is the session-cookie
+		-what is it
+
+
+
+Client side stroage is scalable but less secure
+
+
+in project django middle ware? keeps track on the session state?
+
+
+django hashes passwords to its db
+	-submitted passwords ar also hashed and then compared'
+
+
+User auth
+
+-done by api?
+
+authentication - user is legit
+authorisation - has the right to use a proper resource
+
+js runs in the browser
+
+
+a token for authentication is passed between client n server instead of credentials
+
+
+refresh tokens used to make a new access tokens
+
+
+
+Concurrency
+
+different requests from same? client from different processes can try to access and edit the same resource in the same time
+
+pessimistic vs optimistic
+locking 	
+
+-needed in webshop project by 2 buyers having the same item in basket and try to buy it
+	-or when editing item name/price
