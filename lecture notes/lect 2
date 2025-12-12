@@ -10,22 +10,23 @@ HTTP is stateless
     -need ?cookies to get states, is react cokies?
 
 for exam
-    -learn difference between get post and put requests
+    -learn difference between get, post and put requests
 
 
 CLIENT SIDE PROG
 
 HTML - WHAT to show
 CSS  - HOW to show it
-JS   - EXECUTION
+JS   - EXECUTION, movement, navigation
 
 JS
--allows to execute scripts from ?at the client side
+-allows to execute scripts at the client side
 
 
 React JS
 
 ->so its a JS library
+-the view in a MVC app
 -does not use templates -> components
 
 -virtual DOM
@@ -36,3 +37,5 @@ components
     -defined here as functions though
 
 -render = update? = refresh
+
+-hooks update the state of the web app

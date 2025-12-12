@@ -1,3 +1,4 @@
+the need to have persistent data
 
 need to store and access userdata from previous and at current session
 	-e.g. shopping basket in web shop
